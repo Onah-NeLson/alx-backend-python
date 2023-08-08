@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-''' Script Hint:This script,Imports wait_random from the previous python file that
+'''
+Script Hint:This script,Imports wait_random from the previous python file that
                  you’ve written and write an async routine called wait_n
                  that takes in 2 int arguments: max_delay and n. You will
                  spawn wait_random n times with the specified max_delay.
@@ -7,7 +8,8 @@
                  wait_n should return the list of all the delays(float values)
                  The list of the delays should be in ascending order without
                  using sort() because of concurrency.
-    Arguments: n: int, max_delay: int = 10
+Arguments: n: int, max_delay: int = 10
+
 '''
 
 import asyncio
